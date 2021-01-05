@@ -66,6 +66,11 @@ button, .btn{
     height: 25px;
     width: 100px;
     margin-right: 10px;
+    border: 1px solid #3083FF;
+    background-color: #3083FF;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 12px;
 }
 
 footer {
@@ -104,4 +109,14 @@ footer {
     float: center;
 }
 
+.logo{
+    cursor: pointer;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
   
+}
